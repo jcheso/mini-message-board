@@ -1,0 +1,31 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00b7ff;
+}
+
+.message-box {
+  border-width: 1px;
+  border-style: solid;
+  margin: 5px;
+  padding: 5px;
+}
+
+.message-text {
+  font-size: large;
+}
+
+.message-user {
+  font-weight: 800;
+  text-align: end;
+
+  font-size: small;
+}
+
+.message-date {
+  text-align: end;
+  font-size: smaller;
+}

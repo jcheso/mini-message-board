@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= title
+  div
+    each message in messages
+      div.message-box
+        p.message-text #{message.text}
+        p.message-user #{message.user}
+        p.message-date #{message.added}
+  div
+    a(href="/new") New Message
+
